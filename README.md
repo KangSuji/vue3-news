@@ -1,5 +1,6 @@
 # vue3-test
-
+vue2-news -> vue3로 바꿈  
+git pages 배포 연습
 ## Project setup
 ```
 npm install
