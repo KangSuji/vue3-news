@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: '/vue3-news/',
   pages: {
     index: {
       // entry for the page
