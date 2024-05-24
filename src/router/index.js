@@ -13,8 +13,8 @@ export default createRouter({
       redirect: "/news",
     },
     {
-      path: "/vue3-test/",
-      redirect: "/news",
+      path: "*",
+      component: NewsView,
     },
     {
       path: "/news",
