@@ -1,37 +1,40 @@
-import { createRouter,createWebHistory } from "vue-router";
-import NewsView from '../view/NewsView.vue';
-import AskView from '../view/AskView.vue';
-import JobsView from '../view/JobsView.vue';
-import ItemView from '../view/ItemView.vue';
-import UserView from '../view/UserView.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import NewsView from "../view/NewsView.vue";
+import AskView from "../view/AskView.vue";
+import JobsView from "../view/JobsView.vue";
+import ItemView from "../view/ItemView.vue";
+import UserView from "../view/UserView.vue";
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
-      redirect: '/news'
+      path: "/",
+      redirect: "/news",
     },
     {
-      path: '/news',
+      path: "/vue3-test/",
+      redirect: "/news",
+    },
+    {
+      path: "/news",
       component: NewsView,
     },
     {
-      path: '/jobs',
+      path: "/jobs",
       component: AskView,
     },
     {
-      path: '/ask',
+      path: "/ask",
       component: JobsView,
     },
     {
-      path:'/item/:id',
-      component: ItemView
-
+      path: "/item/:id",
+      component: ItemView,
     },
     {
-      path:'/user/:id',
-      component: UserView
-    }
+      path: "/user/:id",
+      component: UserView,
+    },
   ],
 });
