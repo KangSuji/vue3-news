@@ -13,10 +13,6 @@ export default createRouter({
       redirect: "/news",
     },
     {
-      path: "*",
-      component: NewsView,
-    },
-    {
       path: "/news",
       component: NewsView,
     },
