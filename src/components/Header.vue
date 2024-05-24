@@ -5,20 +5,18 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
-  header {
-    margin: -10px 0;
-    padding: 0;
-    background-color: #FEF7DC;
-  }
-  header a {
-    font-size: 4rem;
-    font-family: 'Koulen', cursive;
-    color: #242220;
-  }
+header {
+  margin: -10px 0;
+  padding: 0;
+  background-color: #fef7dc;
+}
+header a {
+  font-size: 4rem;
+  font-family: "Koulen", cursive;
+  color: #242220;
+}
 </style>
